@@ -1,15 +1,15 @@
 var json = {"records":	[{  
 			   "itemType":"withdrawal",
-			   "dateCreated":"01/02/2013",
+			   "dateCreated":"10/02/2017",
 			   "maatId":2130594,
 			   "maatCaseType":"Either Way",
 			   "maatCommittalDate":" - ",
 			   "office":"Birmingham",
-			   "hoursRequired":4,
+			   "hoursRequired":0.6,
 			   "dependants":[  
 			      {  
 			         "itemType":"withdrawal",
-			         "dateCreated":"01/12/2013",
+			         "dateCreated":"01/12/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -18,7 +18,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"transfer",
-			         "dateCreated":"03/02/2014",
+			         "dateCreated":"03/02/2015",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -27,7 +27,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"conclusion",
-			         "dateCreated":"01/02/2015",
+			         "dateCreated":"01/02/2014",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -38,16 +38,16 @@ var json = {"records":	[{
 			},
 			{  
 			   "itemType":"committal",
-			   "dateCreated":"01/02/2013",
+			   "dateCreated":"02/02/2017",
 			   "maatId":2130594,
 			   "maatCaseType":"Either Way",
 			   "maatCommittalDate":" - ",
 			   "office":"Birmingham",
-			   "hoursRequired":5,
+			   "hoursRequired":0.9,
 			   "dependants":[  
 			      {  
 			         "itemType":"intervention",
-			         "dateCreated":"02/08/2013",
+			         "dateCreated":"02/08/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -56,7 +56,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"withdrawal",
-			         "dateCreated":"01/12/2013",
+			         "dateCreated":"01/12/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -65,7 +65,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"intervention",
-			         "dateCreated":"03/02/2014",
+			         "dateCreated":"03/02/2015",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -74,7 +74,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"conclusion",
-			         "dateCreated":"01/02/2015",
+			         "dateCreated":"01/02/2014",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -83,7 +83,7 @@ var json = {"records":	[{
 			      },
 			      			      {  
 			         "itemType":"transfer",
-			         "dateCreated":"01/12/2013",
+			         "dateCreated":"01/12/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -92,7 +92,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"withdrawal",
-			         "dateCreated":"03/02/2014",
+			         "dateCreated":"03/02/2015",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -101,7 +101,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"conclusion",
-			         "dateCreated":"01/02/2015",
+			         "dateCreated":"01/02/2014",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -112,16 +112,16 @@ var json = {"records":	[{
 			},
 			{  
 			   "itemType":"conclusion",
-			   "dateCreated":"01/02/2013",
+			   "dateCreated":"05/02/2017",
 			   "maatId":2130594,
 			   "maatCaseType":"Either Way",
 			   "maatCommittalDate":" - ",
 			   "office":"Birmingham",
-			   "hoursRequired":3,
+			   "hoursRequired":0.3,
 			   "dependants":[  
 			      {  
 			         "itemType":"intervention",
-			         "dateCreated":"02/08/2013",
+			         "dateCreated":"02/08/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -130,7 +130,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"withdrawal",
-			         "dateCreated":"01/12/2013",
+			         "dateCreated":"01/12/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -139,7 +139,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"transfer",
-			         "dateCreated":"03/02/2014",
+			         "dateCreated":"03/02/2015",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -148,7 +148,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"conclusion",
-			         "dateCreated":"01/02/2015",
+			         "dateCreated":"01/02/2014",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -159,16 +159,16 @@ var json = {"records":	[{
 			},
 			{  
 			   "itemType":"committal",
-			   "dateCreated":"01/02/2013",
+			   "dateCreated":"07/02/2017",
 			   "maatId":2130594,
 			   "maatCaseType":"Either Way",
 			   "maatCommittalDate":" - ",
 			   "office":"Nottingham",
-			   "hoursRequired":6,
+			   "hoursRequired":0.6,
 			   "dependants":[  
 			      {  
 			         "itemType":"intervention",
-			         "dateCreated":"02/08/2013",
+			         "dateCreated":"02/08/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -177,7 +177,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"withdrawal",
-			         "dateCreated":"01/12/2013",
+			         "dateCreated":"01/12/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -186,7 +186,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"transfer",
-			         "dateCreated":"03/02/2014",
+			         "dateCreated":"03/02/2015",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -195,7 +195,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"conclusion",
-			         "dateCreated":"01/02/2015",
+			         "dateCreated":"01/02/2014",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -204,7 +204,7 @@ var json = {"records":	[{
 			      },
 			      	      {  
 			         "itemType":"intervention",
-			         "dateCreated":"02/08/2013",
+			         "dateCreated":"02/08/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -213,7 +213,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"withdrawal",
-			         "dateCreated":"01/12/2013",
+			         "dateCreated":"01/12/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -222,7 +222,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"transfer",
-			         "dateCreated":"03/02/2014",
+			         "dateCreated":"03/02/2015",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -231,7 +231,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"conclusion",
-			         "dateCreated":"01/02/2015",
+			         "dateCreated":"01/02/2014",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -242,7 +242,7 @@ var json = {"records":	[{
 			},
 			{  
 			   "itemType":"committal",
-			   "dateCreated":"01/02/2013",
+			   "dateCreated":"01/02/2017",
 			   "maatId":2130594,
 			   "maatCaseType":"Either Way",
 			   "maatCommittalDate":" - ",
@@ -251,7 +251,7 @@ var json = {"records":	[{
 			   "dependants":[  
 			      {  
 			         "itemType":"intervention",
-			         "dateCreated":"02/08/2013",
+			         "dateCreated":"02/08/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -260,7 +260,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"withdrawal",
-			         "dateCreated":"01/12/2013",
+			         "dateCreated":"01/12/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -269,16 +269,16 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"transfer",
-			         "dateCreated":"03/02/2014",
+			         "dateCreated":"03/02/2015",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
 			         "office":"Birmingham",
-			         "hoursRequired":0.1
+			         "hoursRequired":0.6
 			      },
 			      {  
 			         "itemType":"conclusion",
-			         "dateCreated":"01/02/2015",
+			         "dateCreated":"01/02/2014",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -289,16 +289,16 @@ var json = {"records":	[{
 			},
 			{  
 			   "itemType":"committal",
-			   "dateCreated":"01/02/2013",
+			   "dateCreated":"01/02/2017",
 			   "maatId":2130594,
 			   "maatCaseType":"Either Way",
 			   "maatCommittalDate":" - ",
 			   "office":"Birmingham",
-			   "hoursRequired":5,
+			   "hoursRequired":0.5,
 			   "dependants":[  
 			      {  
 			         "itemType":"intervention",
-			         "dateCreated":"02/08/2013",
+			         "dateCreated":"02/08/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -307,7 +307,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"withdrawal",
-			         "dateCreated":"01/12/2013",
+			         "dateCreated":"01/12/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -316,7 +316,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"intervention",
-			         "dateCreated":"03/02/2014",
+			         "dateCreated":"03/02/2015",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -325,7 +325,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"conclusion",
-			         "dateCreated":"01/02/2015",
+			         "dateCreated":"01/02/2014",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -334,7 +334,7 @@ var json = {"records":	[{
 			      },
 			      			      {  
 			         "itemType":"transfer",
-			         "dateCreated":"01/12/2013",
+			         "dateCreated":"01/12/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -343,7 +343,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"withdrawal",
-			         "dateCreated":"03/02/2014",
+			         "dateCreated":"03/02/2015",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -352,7 +352,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"conclusion",
-			         "dateCreated":"01/02/2015",
+			         "dateCreated":"01/02/2014",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -363,16 +363,16 @@ var json = {"records":	[{
 			},
 			{  
 			   "itemType":"conclusion",
-			   "dateCreated":"01/02/2013",
+			   "dateCreated":"01/01/2018",
 			   "maatId":2130594,
 			   "maatCaseType":"Either Way",
 			   "maatCommittalDate":" - ",
 			   "office":"Birmingham",
-			   "hoursRequired":3,
+			   "hoursRequired":0.3,
 			   "dependants":[  
 			      {  
 			         "itemType":"intervention",
-			         "dateCreated":"02/08/2013",
+			         "dateCreated":"02/08/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -381,7 +381,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"withdrawal",
-			         "dateCreated":"01/12/2013",
+			         "dateCreated":"01/12/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -390,7 +390,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"transfer",
-			         "dateCreated":"03/02/2014",
+			         "dateCreated":"03/02/2015",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -399,7 +399,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"conclusion",
-			         "dateCreated":"01/02/2015",
+			         "dateCreated":"01/02/2014",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -410,16 +410,16 @@ var json = {"records":	[{
 			},
 			{  
 			   "itemType":"committal",
-			   "dateCreated":"01/02/2013",
+			   "dateCreated":"01/01/2017",
 			   "maatId":2130594,
 			   "maatCaseType":"Either Way",
 			   "maatCommittalDate":" - ",
 			   "office":"Nottingham",
-			   "hoursRequired":6,
+			   "hoursRequired":0.6,
 			   "dependants":[  
 			      {  
 			         "itemType":"intervention",
-			         "dateCreated":"02/08/2013",
+			         "dateCreated":"02/08/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -428,7 +428,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"withdrawal",
-			         "dateCreated":"01/12/2013",
+			         "dateCreated":"01/12/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -437,7 +437,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"transfer",
-			         "dateCreated":"03/02/2014",
+			         "dateCreated":"03/02/2015",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -446,7 +446,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"conclusion",
-			         "dateCreated":"01/02/2015",
+			         "dateCreated":"01/02/2014",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -455,7 +455,7 @@ var json = {"records":	[{
 			      },
 			      	      {  
 			         "itemType":"intervention",
-			         "dateCreated":"02/08/2013",
+			         "dateCreated":"02/08/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -464,7 +464,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"withdrawal",
-			         "dateCreated":"01/12/2013",
+			         "dateCreated":"01/12/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -473,7 +473,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"transfer",
-			         "dateCreated":"03/02/2014",
+			         "dateCreated":"03/02/2015",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -482,7 +482,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"conclusion",
-			         "dateCreated":"01/02/2015",
+			         "dateCreated":"01/02/2014",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -493,16 +493,16 @@ var json = {"records":	[{
 			},
 			{  
 			   "itemType":"committal",
-			   "dateCreated":"01/02/2013",
+			   "dateCreated":"02/01/2018",
 			   "maatId":2130594,
 			   "maatCaseType":"Either Way",
 			   "maatCommittalDate":" - ",
 			   "office":"Birmingham",
-			   "hoursRequired":4,
+			   "hoursRequired":0.4,
 			   "dependants":[  
 			      {  
 			         "itemType":"intervention",
-			         "dateCreated":"02/08/2013",
+			         "dateCreated":"02/08/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -511,7 +511,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"withdrawal",
-			         "dateCreated":"01/12/2013",
+			         "dateCreated":"01/12/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -520,7 +520,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"transfer",
-			         "dateCreated":"03/02/2014",
+			         "dateCreated":"03/02/2015",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -529,7 +529,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"conclusion",
-			         "dateCreated":"01/02/2015",
+			         "dateCreated":"01/02/2014",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -540,16 +540,16 @@ var json = {"records":	[{
 			},
 			{  
 			   "itemType":"committal",
-			   "dateCreated":"01/02/2013",
+			   "dateCreated":"01/07/2017",
 			   "maatId":2130594,
 			   "maatCaseType":"Either Way",
 			   "maatCommittalDate":" - ",
 			   "office":"Nottingham",
-			   "hoursRequired":3,
+			   "hoursRequired":0.3,
 			   "dependants":[  
 			      {  
 			         "itemType":"intervention",
-			         "dateCreated":"02/08/2013",
+			         "dateCreated":"02/08/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -558,7 +558,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"withdrawal",
-			         "dateCreated":"01/12/2013",
+			         "dateCreated":"01/12/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -567,7 +567,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"transfer",
-			         "dateCreated":"03/02/2014",
+			         "dateCreated":"03/02/2015",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -576,7 +576,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"conclusion",
-			         "dateCreated":"01/02/2015",
+			         "dateCreated":"01/02/2014",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -587,16 +587,16 @@ var json = {"records":	[{
 			},
 			{  
 			   "itemType":"committal",
-			   "dateCreated":"01/02/2013",
+			   "dateCreated":"01/09/2017",
 			   "maatId":2130594,
 			   "maatCaseType":"Either Way",
 			   "maatCommittalDate":" - ",
 			   "office":"Liverpool",
-			   "hoursRequired":6,
+			   "hoursRequired":0.6,
 			   "dependants":[  
 			      {  
 			         "itemType":"intervention",
-			         "dateCreated":"02/08/2013",
+			         "dateCreated":"02/08/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -605,7 +605,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"withdrawal",
-			         "dateCreated":"01/12/2013",
+			         "dateCreated":"01/12/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -614,7 +614,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"transfer",
-			         "dateCreated":"03/02/2014",
+			         "dateCreated":"03/02/2015",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -623,7 +623,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"conclusion",
-			         "dateCreated":"01/02/2015",
+			         "dateCreated":"01/02/2014",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -634,16 +634,16 @@ var json = {"records":	[{
 			},
 			{  
 			   "itemType":"intervention",
-			   "dateCreated":"01/02/2013",
+			   "dateCreated":"01/12/2017",
 			   "maatId":2130594,
 			   "maatCaseType":"Either Way",
 			   "maatCommittalDate":" - ",
 			   "office":"Birmingham",
-			   "hoursRequired":7,
+			   "hoursRequired":0.7,
 			   "dependants":[  
 			      {  
 			         "itemType":"intervention",
-			         "dateCreated":"02/08/2013",
+			         "dateCreated":"02/08/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -652,7 +652,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"withdrawal",
-			         "dateCreated":"01/12/2013",
+			         "dateCreated":"01/12/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -661,7 +661,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"transfer",
-			         "dateCreated":"03/02/2014",
+			         "dateCreated":"03/02/2015",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -670,7 +670,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"conclusion",
-			         "dateCreated":"01/02/2015",
+			         "dateCreated":"01/02/2014",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -681,16 +681,16 @@ var json = {"records":	[{
 			},
 			{  
 			   "itemType":"committal",
-			   "dateCreated":"01/02/2013",
+			   "dateCreated":"01/11/2017",
 			   "maatId":2130594,
 			   "maatCaseType":"Either Way",
 			   "maatCommittalDate":" - ",
 			   "office":"Birmingham",
-			   "hoursRequired":3,
+			   "hoursRequired":0.3,
 			   "dependants":[  
 			      {  
 			         "itemType":"intervention",
-			         "dateCreated":"02/08/2013",
+			         "dateCreated":"02/08/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -699,7 +699,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"withdrawal",
-			         "dateCreated":"01/12/2013",
+			         "dateCreated":"01/12/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -708,7 +708,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"transfer",
-			         "dateCreated":"03/02/2014",
+			         "dateCreated":"03/02/2015",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -717,7 +717,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"conclusion",
-			         "dateCreated":"01/02/2015",
+			         "dateCreated":"01/02/2014",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -728,16 +728,16 @@ var json = {"records":	[{
 			},
 			{  
 			   "itemType":"committal",
-			   "dateCreated":"01/02/2013",
+			   "dateCreated":"01/09/2017",
 			   "maatId":2130594,
 			   "maatCaseType":"Either Way",
 			   "maatCommittalDate":" - ",
 			   "office":"Birmingham",
-			   "hoursRequired":2,
+			   "hoursRequired":0.2,
 			   "dependants":[  
 			      {  
 			         "itemType":"conclusion",
-			         "dateCreated":"01/02/2015",
+			         "dateCreated":"01/02/2017",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -748,16 +748,16 @@ var json = {"records":	[{
 			},
 			{  
 			   "itemType":"committal",
-			   "dateCreated":"01/02/2013",
+			   "dateCreated":"24/08/2017",
 			   "maatId":2130594,
 			   "maatCaseType":"Either Way",
 			   "maatCommittalDate":" - ",
 			   "office":"Birmingham",
-			   "hoursRequired":3,
+			   "hoursRequired":0.3,
 			   "dependants":[  
 			      {  
 			         "itemType":"intervention",
-			         "dateCreated":"02/08/2013",
+			         "dateCreated":"02/08/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -766,7 +766,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"withdrawal",
-			         "dateCreated":"01/12/2013",
+			         "dateCreated":"01/12/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -775,7 +775,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"transfer",
-			         "dateCreated":"03/02/2014",
+			         "dateCreated":"03/02/2015",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -784,7 +784,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"conclusion",
-			         "dateCreated":"01/02/2015",
+			         "dateCreated":"01/02/2014",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -795,16 +795,16 @@ var json = {"records":	[{
 			},
 			{  
 			   "itemType":"committal",
-			   "dateCreated":"01/02/2013",
+			   "dateCreated":"10/09/2017",
 			   "maatId":2130594,
 			   "maatCaseType":"Either Way",
 			   "maatCommittalDate":" - ",
 			   "office":"Birmingham",
-			   "hoursRequired":4,
+			   "hoursRequired":0.4,
 			   "dependants":[  
 			      {  
 			         "itemType":"transfer",
-			         "dateCreated":"03/02/2014",
+			         "dateCreated":"03/02/2015",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -813,7 +813,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"conclusion",
-			         "dateCreated":"01/02/2015",
+			         "dateCreated":"01/02/2014",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -824,16 +824,16 @@ var json = {"records":	[{
 			},
 			{  
 			   "itemType":"committal",
-			   "dateCreated":"01/02/2013",
+			   "dateCreated":"08/06/2017",
 			   "maatId":2130594,
 			   "maatCaseType":"Either Way",
 			   "maatCommittalDate":" - ",
 			   "office":"Birmingham",
-			   "hoursRequired":4,
+			   "hoursRequired":0.4,
 			   "dependants":[  
 			      {  
 			         "itemType":"intervention",
-			         "dateCreated":"02/08/2013",
+			         "dateCreated":"02/08/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -842,7 +842,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"withdrawal",
-			         "dateCreated":"01/12/2013",
+			         "dateCreated":"01/12/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -851,7 +851,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"transfer",
-			         "dateCreated":"03/02/2014",
+			         "dateCreated":"03/02/2015",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -860,7 +860,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"conclusion",
-			         "dateCreated":"01/02/2015",
+			         "dateCreated":"01/02/2014",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -871,16 +871,16 @@ var json = {"records":	[{
 			},
 					{  
 			   "itemType":"transfer",
-			   "dateCreated":"01/02/2013",
+			   "dateCreated":"12/06/2017",
 			   "maatId":2130594,
 			   "maatCaseType":"Either Way",
 			   "maatCommittalDate":" - ",
 			   "office":"Liverpool",
-			   "hoursRequired":4,
+			   "hoursRequired":0.4,
 			   "dependants":[  
 			      {  
 			         "itemType":"intervention",
-			         "dateCreated":"02/08/2013",
+			         "dateCreated":"02/08/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -889,7 +889,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"transfer",
-			         "dateCreated":"03/02/2014",
+			         "dateCreated":"03/02/2015",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -898,7 +898,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"conclusion",
-			         "dateCreated":"01/02/2015",
+			         "dateCreated":"01/02/2014",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -909,16 +909,16 @@ var json = {"records":	[{
 			},
 								{  
 			   "itemType":"transfer",
-			   "dateCreated":"01/02/2013",
+			   "dateCreated":"13/05/2017",
 			   "maatId":2130594,
 			   "maatCaseType":"Either Way",
 			   "maatCommittalDate":" - ",
 			   "office":"Liverpool",
-			   "hoursRequired":4,
+			   "hoursRequired":0.4,
 			   "dependants":[  
 			      {  
 			         "itemType":"intervention",
-			         "dateCreated":"02/08/2013",
+			         "dateCreated":"02/08/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -927,7 +927,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"withdrawal",
-			         "dateCreated":"01/12/2013",
+			         "dateCreated":"01/12/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -936,7 +936,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"transfer",
-			         "dateCreated":"03/02/2014",
+			         "dateCreated":"03/02/2015",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -945,7 +945,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"conclusion",
-			         "dateCreated":"01/02/2015",
+			         "dateCreated":"01/02/2014",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -956,16 +956,16 @@ var json = {"records":	[{
 			},
 								{  
 			   "itemType":"committal",
-			   "dateCreated":"01/02/2013",
+			   "dateCreated":"16/04/2017",
 			   "maatId":2130594,
 			   "maatCaseType":"Either Way",
 			   "maatCommittalDate":" - ",
 			   "office":"Liverpool",
-			   "hoursRequired":3,
+			   "hoursRequired":0.3,
 			   "dependants":[  
 			      {  
 			         "itemType":"intervention",
-			         "dateCreated":"02/08/2013",
+			         "dateCreated":"02/08/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -974,7 +974,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"withdrawal",
-			         "dateCreated":"01/12/2013",
+			         "dateCreated":"01/12/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -983,7 +983,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"transfer",
-			         "dateCreated":"03/02/2014",
+			         "dateCreated":"03/02/2015",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -992,7 +992,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"conclusion",
-			         "dateCreated":"01/02/2015",
+			         "dateCreated":"01/02/2014",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -1003,16 +1003,16 @@ var json = {"records":	[{
 			},
 								{  
 			   "itemType":"committal",
-			   "dateCreated":"01/02/2013",
+			   "dateCreated":"11/11/2017",
 			   "maatId":2130594,
 			   "maatCaseType":"Either Way",
 			   "maatCommittalDate":" - ",
 			   "office":"Liverpool",
-			   "hoursRequired":3,
+			   "hoursRequired":0.3,
 			   "dependants":[  
 			      {  
 			         "itemType":"intervention",
-			         "dateCreated":"02/08/2013",
+			         "dateCreated":"02/08/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -1021,7 +1021,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"withdrawal",
-			         "dateCreated":"01/12/2013",
+			         "dateCreated":"01/12/2016",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -1030,7 +1030,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"transfer",
-			         "dateCreated":"03/02/2014",
+			         "dateCreated":"03/02/2015",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
@@ -1039,7 +1039,7 @@ var json = {"records":	[{
 			      },
 			      {  
 			         "itemType":"conclusion",
-			         "dateCreated":"01/02/2015",
+			         "dateCreated":"01/02/2014",
 			         "maatId":2130594,
 			         "maatCaseType":"Either Way",
 			         "maatCommittalDate":" - ",
