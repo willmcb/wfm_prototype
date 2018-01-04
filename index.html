@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WFM prototype</title>
+	<link rel="stylesheet" type="text/css" href="libraries/simple-grid.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+<div class="container">
+
+	<div id="logoDiv" >
+		<img class="col-2" id="logo" src="img/logo.png">
+	</div> 
+	<div id="navDiv" class="row">
+		<ul id="navBar">
+			<li class="navButton">CW-NAME</li>
+			<li class="navButton">Search</li>
+			<li class="navButton">Work Queue</li>
+			<li class="navButton">Workflow Management</li>
+			<li class="navButton">NoL</li>
+			<li class="navButton">Logout</li>
+			<li class="navButton">Print</li>
+		</ul>
+	</div>
+	<!-- <div id="filterDiv" class="row">
+
+		<p class="col-2">Total: <span id="totalData">20</span> / <span id=ofXnumber>10</span></p>
+	</div> -->
+
+	<div id="filterDiv" class="row">
+		<div class="col-9">
+		<table>
+				<tr>
+					<th>Cat</th>
+					<th>Work Queue Item</th>
+					<th>Item Status</th>
+					<th>Rows to view</th>
+					<th>Date from</th>
+					<th>Date to</th>
+				</tr>
+				<tr>
+					<td>
+						<select name="CAT" id="catVal">
+						  <option value="none">none</option>
+						  <option value="Birmingham">Birmingham</option>
+						  <option value="Nottingham">Nottingham</option>
+						  <option value="Liverpool">Liverpool</option>
+						</select>
+					</td>
+					<td>
+						<select name="WQI" id="wqiVal">
+						  <option value="none">none</option>
+						  <option value="committal">committal</option>
+						  <option value="intervention">intervention</option>
+						  <option value="transfer">transfer</option>
+						  <option value="conclusion">conclusion</option>
+						</select>
+					</td>
+					<td>all</td>
+					<td>
+						<select name="rows">
+						  <option value="20">20</option>
+						  <option value="30">30</option>
+						  <option value="40">40</option>
+						  <option value="50">50</option>
+						</select></td>
+					<td><input type="date"></td>
+					<td><input type="date"></td>
+			    </tr>
+		</table>
+		</div>
+		<div>
+
+			<button class="col-2 button" id="searchButton">search</button>
+			<p class="col-3">Total: <span id="count">0 / 0</span> </span></p>
+		
+		</div>
+		
+
+	</div>
+	<div id="searchDiv" class="row">
+		<table class="searchTable col-12" id="searchTable">
+			<thead>
+				<tr id="headerRow">
+					<th>Item type</th>
+					<th>Date Created</th>
+					<th>Day no.</th>
+					<th>MAAT ID</th>
+					<th>MAAT Case Type</th>
+					<th>MAAT Committal Date</th>
+					<th>Office</th>
+					<th>Hours Required</th>
+					<th>Total hours</th>
+				</tr>
+			</thead>
+			<tbody id="tableBody"></tbody>
+		</table>
+	</div>
+</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  			integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  			crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/data.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
