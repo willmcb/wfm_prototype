@@ -247,7 +247,7 @@ var json = {"records":	[{
 			   "maatCaseType":"Either Way",
 			   "maatCommittalDate":" - ",
 			   "office":"Birmingham",
-			   "hoursRequired":4,
+			   "hoursRequired":0.4,
 			   "dependants":[  
 			      {  
 			         "itemType":"intervention",

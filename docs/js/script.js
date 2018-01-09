@@ -18,9 +18,15 @@ String.prototype.supplant = function (o) {
     );
 };
 
-var tableAppendStringDepentants = '<tr class="dependee"><td>{itemType}</td><td>{dateCreated}</td><td>{dayNumber}</td><td>{maatId}</td><td>{maatCaseType}</td><td> - </td><td>{office}</td><td>{hoursRequired}</td><td>{totalHours}</td></tr>';
+var tableAppendStringDepentants = '<tr class="dependee"><td>{itemType}</td><td>{dateCreated}</td>' + 
+                                  '<td>{dayNumber}</td><td>{maatId}</td><td>{maatCaseType}</td><td> ' +
+                                  '- </td><td>{office}</td><td class="hoursRequired">{hoursRequired}</td>' +
+                                  '<td class="totalHours">{totalHours}</td></tr>';
 
-var tableAppendStringDependee = '<tr class="dependant"><td>{itemType}</td><td>{dateCreated}</td><td>{dayNumber}</td><td>{maatId}</td><td>{maatCaseType}</td><td> - </td><td>{office}</td><td>{hoursRequired}</td><td>{totalHours}</td></tr>';
+var tableAppendStringDependee = '<tr class="dependant"><td>{itemType}</td><td>{dateCreated}</td><td>{dayNumber}</td>' +
+                                '<td>{maatId}</td><td>{maatCaseType}</td><td> - </td><td>{office}</td>' + 
+                                '<td class="hoursRequired">{hoursRequired}</td>' +
+                                '<td class="totalHours">{totalHours}</td></tr>';
 
 
 var filterRecords = function(cat, workQueueItem){
@@ -104,6 +110,50 @@ var prepareRows = function(filteredData){
 	return tableRowString;
 }
 
+function round(value, decimals) {
+  return Number(Math.round(value+'e'+decimals)+'e-'+decimals);
+}
+
+
+var appendTotals = function(){
+	var hoursRequired = $(".hoursRequired");
+	var totalHours = $(".totalHours");
+
+	var totalsArray = [];
+
+	var totalsHolder = []
+	var runningTotal = null;
+
+
+	for (var i = 0; i < hoursRequired.length; i++) {
+
+		if (hoursRequired[i].parentElement.className == "dependant") {
+			
+			totalsArray.push(totalsHolder);
+			runningTotal = null;
+			totalsHolder = [];
+		} 
+
+		runningTotal += parseFloat(hoursRequired[i].innerText);
+
+		totalsHolder.push(Math.round(runningTotal * 100) / 100);
+	    
+	}
+
+	totalsArray.forEach(function(array){
+		array.reverse();
+	});
+
+	totalsArray = [].concat.apply([], totalsArray);
+
+	for (var i = 0; i < totalHours.length; i++) {
+	    totalHours[i].innerText = totalsArray[i];
+	}
+
+
+
+}
+
 
 function searchOnclick(){
 	var catVal = $("#catVal").val();
@@ -117,5 +167,7 @@ function searchOnclick(){
 	var dependeeCount = $(".dependee").length
 
 	$("#count").text(dependantsCount + " / " + dependeeCount);
+
+	 appendTotals();
 
 }
