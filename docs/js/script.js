@@ -154,6 +154,19 @@ var appendTotals = function(){
 
 }
 
+var getTotalHours = function(){
+	var hoursRequired = $(".hoursRequired");
+
+	var runningTotal = 0;
+
+		for (var i = 0; i < hoursRequired.length; i++) {
+
+		runningTotal += parseFloat(hoursRequired[i].innerText);    
+	}
+
+	return (Math.round(runningTotal * 100) / 100);
+}
+
 
 function searchOnclick(){
 	var catVal = $("#catVal").val();
@@ -166,7 +179,9 @@ function searchOnclick(){
 	var dependantsCount = $(".dependant").length
 	var dependeeCount = $(".dependee").length
 
-	$("#count").text(dependantsCount + " / " + dependeeCount);
+
+
+	$("#count").text(dependantsCount + " of " + dependeeCount + " in total - " + getTotalHours() + "hrs total work" );
 
 	 appendTotals();
 
